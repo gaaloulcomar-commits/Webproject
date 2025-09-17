@@ -1,0 +1,60 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://172.30.5.222:5000
+    depends_on:
+      - backend
+    networks:
+      - app-network
+      
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - JWT_SECRET=Zy3h7Pq9!xLk2m@8sWd5Fj0vRrTn4bG
+      - DB_HOST=database
+      - DB_PORT=5432
+      - DB_NAME=server_monitor
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres123
+      - SMTP_HOST=smtp.office365.com
+      - SMTP_PORT=587
+      - SMTP_SECURE=true
+      - SMTP_USERapplication.dump@comar.tn
+      - SMTP_PASS=AnbTRAV2024$$**
+    depends_on:
+      - database
+    volumes:
+      - ./logs:/app/logs
+      - ~/.ssh:/root/.ssh:ro
+    networks:
+      - app-network
+
+  database:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=server_monitor
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - app-network
+
+volumes:
+  postgres_data:
+
+networks:
+  app-network:
+    driver: bridge

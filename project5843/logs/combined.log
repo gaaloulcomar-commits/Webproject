@@ -1,0 +1,46 @@
+{"level":"info","message":"Database connection established successfully.","service":"server-monitor","timestamp":"2025-09-08T16:57:39.882Z"}
+{"level":"info","message":"Database models synchronized.","service":"server-monitor","timestamp":"2025-09-08T16:57:39.969Z"}
+{"level":"info","message":"Scheduler service initialized","service":"server-monitor","timestamp":"2025-09-08T16:57:39.971Z"}
+{"level":"info","message":"Starting server monitoring service","service":"server-monitor","timestamp":"2025-09-08T16:57:39.973Z"}
+{"level":"info","message":"Server running on port 5000","service":"server-monitor","timestamp":"2025-09-08T16:57:39.981Z"}
+{"level":"info","message":"Loaded 0 scheduled tasks","service":"server-monitor","timestamp":"2025-09-08T16:57:39.983Z"}
+{"level":"info","message":"Client connected: 3LQ4k2lSI4QNsMwEAAAB","service":"server-monitor","timestamp":"2025-09-08T17:08:17.689Z"}
+{"level":"info","message":"Client disconnected: 3LQ4k2lSI4QNsMwEAAAB","service":"server-monitor","timestamp":"2025-09-08T17:08:20.513Z"}
+{"level":"info","message":"Client connected: qPv110b8E2NIqEpVAAAD","service":"server-monitor","timestamp":"2025-09-08T17:08:20.527Z"}
+{"level":"info","message":"Restarting server: siegeasbackend (siegeasbackend)","service":"server-monitor","timestamp":"2025-09-08T17:18:21.439Z"}
+{"level":"error","message":"Failed to restart siegeasbackend: Server is not reachable","service":"server-monitor","stack":"Error: Server is not reachable\n    at executeRestart (/app/services/restartService.js:26:17)","timestamp":"2025-09-08T17:18:26.450Z"}
+{"level":"info","message":"Restarting server: siegeasbackend (siegeasbackend)","service":"server-monitor","timestamp":"2025-09-08T17:20:49.533Z"}
+{"level":"error","message":"Failed to restart siegeasbackend: Server is not reachable","service":"server-monitor","stack":"Error: Server is not reachable\n    at executeRestart (/app/services/restartService.js:26:17)","timestamp":"2025-09-08T17:20:54.543Z"}
+{"level":"info","message":"Client disconnected: qPv110b8E2NIqEpVAAAD","service":"server-monitor","timestamp":"2025-09-09T07:22:21.023Z"}
+{"level":"info","message":"Client connected: 8320G47-o6tXZY1AAAAF","service":"server-monitor","timestamp":"2025-09-09T07:22:21.066Z"}
+{"level":"info","message":"Restarting server: SiegeAssurnetDigitale (SiegeAssurnetDigitale)","service":"server-monitor","timestamp":"2025-09-09T07:22:53.597Z"}
+{"level":"error","message":"Failed to restart SiegeAssurnetDigitale: Server is not reachable","service":"server-monitor","stack":"Error: Server is not reachable\n    at executeRestart (/app/services/restartService.js:26:17)","timestamp":"2025-09-09T07:22:58.611Z"}
+{"level":"info","message":"Restarting server: SiegeAssurnetDigitale (SiegeAssurnetDigitale)","service":"server-monitor","timestamp":"2025-09-09T07:23:17.396Z"}
+{"level":"error","message":"Failed to restart SiegeAssurnetDigitale: Server is not reachable","service":"server-monitor","stack":"Error: Server is not reachable\n    at executeRestart (/app/services/restartService.js:26:17)","timestamp":"2025-09-09T07:23:22.407Z"}
+{"level":"info","message":"Client disconnected: 8320G47-o6tXZY1AAAAF","service":"server-monitor","timestamp":"2025-09-09T07:23:33.262Z"}
+{"level":"info","message":"Client connected: 2NEQ5OwrYv4iXshtAAAH","service":"server-monitor","timestamp":"2025-09-09T07:23:33.307Z"}
+{"level":"info","message":"Client disconnected: 2NEQ5OwrYv4iXshtAAAH","service":"server-monitor","timestamp":"2025-09-09T07:23:33.980Z"}
+{"level":"info","message":"Client connected: Q_-JjKRh7hCjklSoAAAJ","service":"server-monitor","timestamp":"2025-09-09T07:23:34.024Z"}
+{"level":"info","message":"Client disconnected: Q_-JjKRh7hCjklSoAAAJ","service":"server-monitor","timestamp":"2025-09-09T07:23:36.544Z"}
+{"level":"info","message":"Client connected: oQh_fuVay-Y_1apeAAAL","service":"server-monitor","timestamp":"2025-09-09T07:23:36.596Z"}
+{"level":"info","message":"Client disconnected: oQh_fuVay-Y_1apeAAAL","service":"server-monitor","timestamp":"2025-09-09T07:23:37.170Z"}
+{"level":"info","message":"Client connected: coTOc2pZt6bSnn_dAAAN","service":"server-monitor","timestamp":"2025-09-09T07:23:37.219Z"}
+{"level":"info","message":"Restarting server: SiegeAssurnetDigitale (SiegeAssurnetDigitale)","service":"server-monitor","timestamp":"2025-09-09T07:23:48.421Z"}
+{"level":"error","message":"Failed to restart SiegeAssurnetDigitale: Server is not reachable","service":"server-monitor","stack":"Error: Server is not reachable\n    at executeRestart (/app/services/restartService.js:26:17)","timestamp":"2025-09-09T07:23:53.432Z"}
+{"level":"info","message":"Client disconnected: coTOc2pZt6bSnn_dAAAN","service":"server-monitor","timestamp":"2025-09-09T07:24:02.871Z"}
+{"level":"info","message":"Restarting server: siegedbc (siegedbc)","service":"server-monitor","timestamp":"2025-09-09T16:25:33.072Z"}
+{"level":"error","message":"Failed to restart siegedbc: Server is not reachable","service":"server-monitor","stack":"Error: Server is not reachable\n    at executeRestart (/app/services/restartService.js:26:17)","timestamp":"2025-09-09T16:25:38.086Z"}
+{"level":"info","message":"Client connected: lRuXm4BiD_zNstaFAAAP","service":"server-monitor","timestamp":"2025-09-16T07:59:13.392Z"}
+{"level":"info","message":"Client disconnected: lRuXm4BiD_zNstaFAAAP","service":"server-monitor","timestamp":"2025-09-16T08:13:57.116Z"}
+{"level":"info","message":"Client connected: o3DgK2Yg7-F78x2cAAAR","service":"server-monitor","timestamp":"2025-09-16T08:13:57.160Z"}
+{"level":"info","message":"Client disconnected: o3DgK2Yg7-F78x2cAAAR","service":"server-monitor","timestamp":"2025-09-16T12:51:25.165Z"}
+{"level":"info","message":"Database connection established successfully.","service":"server-monitor","timestamp":"2025-09-17T09:08:18.748Z"}
+{"level":"info","message":"Database models synchronized.","service":"server-monitor","timestamp":"2025-09-17T09:08:18.812Z"}
+{"level":"info","message":"Scheduler service initialized","service":"server-monitor","timestamp":"2025-09-17T09:08:18.814Z"}
+{"level":"info","message":"Starting server monitoring service","service":"server-monitor","timestamp":"2025-09-17T09:08:18.815Z"}
+{"level":"info","message":"Server running on port 5000","service":"server-monitor","timestamp":"2025-09-17T09:08:18.822Z"}
+{"level":"info","message":"Loaded 0 scheduled tasks","service":"server-monitor","timestamp":"2025-09-17T09:08:18.828Z"}
+{"level":"info","message":"Client connected: 4lW0XGvTP9XZN8uIAAAB","service":"server-monitor","timestamp":"2025-09-17T09:10:22.542Z"}
+{"level":"info","message":"Client disconnected: 4lW0XGvTP9XZN8uIAAAB","service":"server-monitor","timestamp":"2025-09-17T09:10:28.132Z"}
+{"level":"info","message":"Restarting server: SiegeAssurnetDigitale (SiegeAssurnetDigitale)","service":"server-monitor","timestamp":"2025-09-17T09:15:39.930Z"}
+{"level":"error","message":"Failed to restart SiegeAssurnetDigitale: Server is not reachable","service":"server-monitor","stack":"Error: Server is not reachable\n    at executeRestart (/app/services/restartService.js:26:17)","timestamp":"2025-09-17T09:15:44.941Z"}
